@@ -1,6 +1,5 @@
 name: Run Tests
 
-# Триггеры: запуск workflow при push или pull request в ветку main
 on:
   push:
     branches:

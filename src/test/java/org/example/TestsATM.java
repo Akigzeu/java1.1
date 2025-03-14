@@ -22,7 +22,7 @@ public class TestsATM {
 
         Account account = new Account("12345", "1111");
         account.setId(1);
-        account.setBalance(Double.valueOf("100.00"));
+        account.setBalance(Double.valueOf("900.00"));
 
         when(mockAccountRepository.getAccount("12345", "1111")).thenReturn(java.util.Optional.of(account));
 
